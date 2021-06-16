@@ -1,0 +1,351 @@
+
+/*CSS PARTE DE PELICULAS.PHP*/
+.container{
+  background: #ffffff;
+font-family: 'Roboto', sans-serif;
+padding: 1%;
+}
+.container > .grid-container{
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-gap: 10px;
+ margin-top: 10px; 
+}
+.grid-container > .grid-subContainer{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+   grid-column-gap: 10px;
+  grid-row-gap: 50px;
+}
+.flexbottomContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.bottomAdmin {
+    margin: 10px;
+  max-width: 120px;
+  max-height: 200px;
+  line-height: 25px;
+  text-align: center;
+  box-shadow:inset 0px -3px 7px 0px #29bbff;
+  background:linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+  background-color:#2dabf9;
+  border-radius:3px;
+  border:1px solid #0b0e07;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:15px;
+  padding:10px 50px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #263666;
+}
+.bottomAdmin:hover {
+  background:linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+  background-color:#0688fa;
+}
+.bottomAdmin:active {
+  position:relative;
+  top:1px;
+}
+
+.item1 {
+  border: 2px solid black;
+  background-color: #1540ad;
+  color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+  
+}
+.grid-subContainer > .grid-sub2Container{
+  display: flex;
+  flex-direction: column;
+  animation: fadeInAnimation ease 3s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards;
+
+}
+#titulo{
+  font-size: 30px;
+  text-align:  center;
+
+}
+.tituloPelicula{
+  display: flex;
+  justify-content: center;
+  color: #0048ff;
+  text-align: center;
+  font-size: 20px;
+}
+.imagenPelicula {
+  display: flex;
+  justify-content: center;
+
+}
+
+#widthImg{
+  width: 180px;
+}
+#widthImgPel{
+  width: 230px;
+  height: 330px;
+}
+.gridPeliContainer{
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+    grid-gap: 10px;
+  padding: 10px;
+grid-row-gap: 10px;
+background-color: #f2f2f2;
+}
+.gridPeliContainer > .grid-PelisubContainer1{
+  display: grid;
+  grid-template-columns: 280px auto;
+   grid-column-gap: 30px;
+}
+.grid-PelisubContainer1 > div{
+  align-content: space-around;
+}
+.grid-PelisubContainer1 > .grid-inPelisubContainer1{
+  display: grid;
+  grid-gap: 10px;
+}
+.grid-inPelisubContainer1 > p{
+  font-size: 20px;
+}
+.grid-inPelisubContainer1 > .flexsubContainer1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+
+}
+.gridPeliContainer > .grid-PelisubContainer2{
+  display: grid;
+    grid-template-rows: auto auto auto;
+  grid-gap: 50px;
+}
+.flexTrailer{
+    display: inline-flex;
+  justify-content: center;
+}
+#trailer{
+  width: 600px;
+  height:300px;
+
+}
+#nombrePeli{
+  text-align: center;
+ background-color: #4765F0;
+
+  font-size: 30px;
+}
+#widthImgAct{
+  width: 100px;
+  height: 150px;
+}
+label[for="star5"],
+label[for="star4"],
+label[for="star3"],
+label[for="star2"],
+label[for="star1"]{
+  cursor: pointer;
+}
+.flexdireccion{
+  margin: 10px;
+  column-gap: 120px;
+  display: inline-flex;
+  flex-direction: row;
+   justify-content: center;
+  flex-wrap: wrap;
+background-color: #f2f2f2;
+}
+#bottom_ver{
+  text-align: center;
+  height:50px;  
+  width:140px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #1883ba;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
+#bottom_ver:hover{
+  opacity: 0.8;
+    color: #1883ba;
+    background-color: #ffffff;
+}
+#bottom_descargar{
+  text-align: center;
+  height:50px;  
+  width:140px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    background-color: #FFD700;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
+#bottom_descargar:hover{
+  opacity: 0.8;
+    color: #1883ba;
+    background-color: #ffffff;
+}
+.flexdireccion > .flexReparto{
+  margin: 10px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #ffffff;
+
+}
+.flexReparto > div {
+  font-size: 14px;
+}
+
+
+#form {
+
+  width: 250px;
+  margin: 0 auto;
+  height: 50px;
+}
+
+#form p {
+  text-align: center;
+}
+
+#form label {
+  font-size: 20px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+label {
+  color: grey;
+}
+
+.rate {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+  font-size: 150%;
+}
+
+label:hover,
+label:hover ~ label {
+  color: orange;
+}
+
+input[type="radio"]:checked ~ label {
+  color: orange;
+}
+
+
+.gridPeliContainer > .grid-PelisubContainer3{
+  display: grid;
+  grid-gap: 50px;
+}
+.grid-PelisubContainer3 > form{
+  background-color: #ffffff;
+
+
+}
+textarea{
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+}
+.panelComentario {
+  width: 680px;
+  position: relative;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-row-gap: 5px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  border:.5px solid #fff;
+  box-shadow: 0px 0px 10px #000;
+}
+.cabeceraComentario {
+  float: left;
+  background:#f2f2f2;
+  color: #0066ff;
+  font-size:23px;
+  position: relative;
+  top:1px;
+}
+.cabeceraComentario > span{
+  color: #999;
+  font-size:13px;
+
+}
+.contenidoComentario{
+  background:#fff;
+  padding: 12px;
+  font-size: 20px;
+  color: #595959;
+}
+
+#avatar{
+  width: 65px;
+  height: 65px;
+  position: relative;
+  z-index: 99;
+  float: left;
+  border: 3px solid #FFF; 
+  border-radius: 4px;
+  overflow: hidden;
+  margin-right: 5px;
+}
+#iconoResponder{
+  width: 18px;
+  height: 18px;
+  float: right;
+  margin-left: 14px;
+  position: absolute;
+  top: 2px;
+  color: #A6A6A6;
+  cursor: pointer;
+}
+
+  #botonComentarios{
+        font-size:10px;
+        font-weight:bold;
+        color:white;
+        background:#638cb5;
+        border:0px;
+        width:80px;
+        height:19px;
+          cursor: pointer;
+       }
+
+
+
+
+
+
+
+
+
+.verPContainer{
+  background: #f2f2f2;
+  margin-top: 10px;
+}
+
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+    } 
+}

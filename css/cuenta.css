@@ -1,0 +1,93 @@
+/* FORMULARIO =================================== */
+.form_wrap{
+    width: 1050px;
+    height: 600px;
+    display: flex;
+
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Informacion de Contacto*/
+
+.contact_info::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    opacity: 0.9;
+}
+
+.contact_info{
+    width: 30%;
+    position: relative;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+
+    background-image: url('../media/css/fondoPerfil.jpg');
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.info_title{
+    position: relative;
+    z-index: auto;
+    color: #fff;
+}
+
+.info_title h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+/* Formulario de contacto*/
+.form_contact{
+    width: 70%;
+    padding: 30px 40px;
+}
+
+.form_contact h2{
+	font-size: 25px;
+	font-weight: 600;
+	color: #303030;
+	margin-bottom: 30px;
+}
+
+.form_contact .user_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.info_title .button{
+    width: 100px;
+	background: #827D7D;
+	padding: 10px;
+	border: none;
+	border-radius: 20px;
+    text-decoration: none;
+    align-self: flex-end;
+    color: #fff;
+	font-family: 'Open sans';
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.button:hover{
+    background: #3371B6;
+}
+
+#imagenPerfil{
+    width: 300px;
+    height: 250px;
+}

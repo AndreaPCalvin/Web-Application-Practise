@@ -1,0 +1,67 @@
+.cuadriculaBE{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-row-gap: 2px;
+  grid-column-gap: 0px;
+  background-image: url('../media/css/fondoCuadricula.jpg');
+  padding: 2%;
+  margin-top:3%;
+  height:100%;
+  width:90%;
+}
+
+.cuadriculaBE > div {
+  background-color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-size: 17px;
+  color:black;
+  border: 2px solid #e0c56e;
+  padding:2%;
+}
+
+a {
+  color: #2badf2;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1182e0;
+}
+
+input[type=text], [type=date],  select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+input[type=submit] {
+  width: 100%;
+  background: linear-gradient(to bottom, #ece2c6 1%, #daa520 90%);
+  color: #000000;
+  padding: 14px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  font-size:19px;
+  font-weight:bold;
+}
+
+input[type=submit]:hover {
+  background:linear-gradient(to bottom, #daa520 5%, #ece2c6 100%);
+}
+
+#buscarForm {
+  border:5px solid #e0c56e;
+  border-radius: 0.5em;
+  background-image: url('../media/css/fondoBuscar.jpg');
+  padding: 20px;
+}
+
+.texto{
+	color:white;
+	font-size:20px;
+}

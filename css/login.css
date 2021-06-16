@@ -1,0 +1,96 @@
+.contenidoLogin{
+
+	padding: 20px;
+}
+body{
+  background-image: url("../media/css/fondoForo.jpg");
+}
+.login {
+  margin:0 auto;
+  max-width:500px;
+  font-family: 'Ubuntu', sans-serif;
+}
+.login-header {
+  color:#fff;
+  text-align:center;
+  font-size:300%;
+}
+
+.login-form {
+  border:.5px solid #fff;
+  background:#daa520;
+  border-radius:10px;
+  box-shadow:0px 0px 10px #000;
+}
+.login-form h3 {
+  text-align:left;
+  margin-left:40px;
+  color:#fff;
+}
+.login-form p{
+  color: #fff;
+}
+.login-form {
+  box-sizing:border-box;
+  padding-top:15px;
+	padding-bottom:10%;
+  margin:5% auto;
+  text-align:center;
+}
+.login input[type="text"],
+.login input[type="password"],
+.login input[type="nombrecompleto"],
+.login input[type="email"],
+.login input[type="number"],
+.login input[type="apodo"] {
+  max-width:400px;
+	width: 80%;
+  line-height:3em;
+  font-family: 'Ubuntu', sans-serif;
+  margin:1em 2em;
+  border-radius:5px;
+  border:2px solid #f2f2f2;
+  outline:none;
+  padding-left:10px;
+}
+
+.login input[type="radio"] {
+  max-width:400px;
+  width: 10%;
+}
+
+.login-form button {
+  height:50px;
+  width:150px;
+  background:white;
+  border:1px solid #f2f2f2;
+  border-radius:20px;
+  color: #daa520;
+  font-weight:bold;
+  font-size:15px;
+  text-transform:uppercase;
+  font-family: 'Ubuntu', sans-serif;
+  cursor:pointer;
+}
+
+.sign-up{
+  color:#f2f2f2;
+  margin-left:-70%;
+  cursor:pointer;
+  font-size:18px;
+  text-decoration:underline;
+}
+
+/*Media Querie*/
+@media only screen and (min-width : 150px) and (max-width : 530px){
+  .login-form h3 {
+    text-align:center;
+    margin:0;
+  }
+  .sign-up, .no-access {
+    margin:10px 0;
+  }
+  .login-button {
+    margin-bottom:10px;
+  }
+}

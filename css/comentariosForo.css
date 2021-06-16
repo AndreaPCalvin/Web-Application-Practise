@@ -1,0 +1,38 @@
+.comentario {
+	margin-bottom: 2%; 
+	padding: 2%;
+	background-color: #252525;
+	border: 2px solid #e6d517;	
+	border-radius: 20px;	
+}
+
+.comentario:nth-child(even) {
+  background-color: #daa520;
+  border: 2px solid #454545;
+}
+
+.imagen {float:left; margin-right: 3%; }
+
+.usuarioYfecha {
+	float:center; 
+	font-weight:bold; 
+	color:white; 
+	font-style: italic;
+}
+
+#borrarComentario{
+	background:#555555;
+	border: 1px solid #fbbf28;
+}
+#borrarComentario:hover{
+	background:#252525;
+}
+
+.contenido { 
+	color:black; 
+	margin:1%;
+	border: 2px dashed black;
+	opacity: 0.8;
+	text-align:left;
+	border-radius:5px;
+}

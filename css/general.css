@@ -1,0 +1,234 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image:url('../media/css/fondoGlobal.jpg');
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+}
+#avatarCabecera{
+  width: 35px;
+  height: 35px;
+  margin-top: 2px;
+  margin-right: 2px;
+  border-radius: 50%;
+}
+
+#notificacion{
+  width: 25px;
+  height: 25px;
+  margin-top: 2px;
+  margin-right: 2px;
+}
+
+.badge {
+    position: relative;
+    bottom: 15px;
+    right:  12px;
+    padding: 2px 4px;
+    border-radius: 50%;
+    font-size: 10px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+  }
+
+#cerrarSesion{
+  width: 25px;
+  height: 25px;
+  float: right;
+  top: 2px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+#logoutImg{
+  width: 10%;
+  height: 10%;
+}
+#foro{
+	background-image: url('../media/css/fondoForo.jpg');	
+    background-repeat: repeat;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1000px;
+	margin: auto;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: repeat(2, auto);
+
+	grid-template-areas: "header"
+						 "contenido";
+}
+
+.contenedor .contenido {
+	grid-area: contenido;
+
+	background: #fff;
+	padding: 20px;
+	
+}
+
+header {
+	grid-area: header;
+
+	background:  linear-gradient(to bottom, #ece2c6 5%, #daa520 100%);
+	width: 100%;
+	max-width: 1000px;
+	margin: auto;
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.box{
+  margin: auto;
+  width: 20%;
+  height: 100%;
+}
+
+ .container-1{
+  width: 100%;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+ .container-1 input#search{
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #000000;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+header nav{
+	width: 50%;
+	
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+header nav .logo img{
+	width: 80px;
+	vertical-align: top;
+}
+
+header nav a{
+	color: black;
+	font-weight:bold;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px;
+	display: inline-block;
+
+	flex-grow: 1;
+}
+
+header .loginBot {
+	color:#000;
+	font-weight:bold;
+	text-decoration: none;
+	margin: auto;
+	margin-right: 10px;
+}
+
+header nav a:hover{
+	background: #daa520;
+	
+}
+
+header .menu ul{
+	list-style: none;
+}
+
+.menu > li{
+	position: relative;
+	display: inline-block;
+	margin-right: 50px;
+	color: black;
+	font-weight:bold;
+}
+
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: #353535;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #daa520;
+	transition: all .1s;
+}
+
+/* Submenu*/
+
+.submenu{
+	
+	z-index: 10;
+	position: absolute;
+	background: #fff;
+	width: 150px;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 1.5s;
+	margin-right: 20px;
+  	border:.5px solid #fff;
+  	border-radius:10px;
+  	box-shadow:0px 0px 10px #000;
+}
+
+.submenu li a{
+	display: block;
+	padding: 10px;
+	color: #000;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none; 	
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+	
+}
+
+
+
+
+.tituloLogout{
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   color: #0048ff;
+   font-size: 30px;
+}
+h3{
+	display: flex;
+   text-align: center;
+   justify-content: center;
+   color: #0048ff;
+      font-size: 20px;
+}
+.logoIndex{
+    width: 2000;
+    text-align: center;
+}
+.loading{
+	    width: 2000;
+    text-align: center;
+}

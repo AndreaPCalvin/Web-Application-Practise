@@ -1,0 +1,49 @@
+.cuadricula{
+  display: grid;
+  grid-template-columns: auto auto ;
+  grid-gap: 5px;
+  background-image: url('../media/css/fondoCuadricula.jpg');
+  padding: 2%;
+  height:70%;
+  width:100%;
+}
+
+.cuadricula > div {
+  background-color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  padding: 3%;
+
+  font-size: 17px;
+  color:black;
+  border: 3px solid #e0c56e;
+  width:90%;
+  height:50%;
+}
+
+#miBoton{
+	color:#252525;
+	background:linear-gradient(to bottom, #ece2c6 5%, #daa520 100%);
+	border:1px solid #e0c56e;
+	margin-top:5%;
+}
+#miBoton:hover {
+	background:linear-gradient(to bottom, #daa520 5%, #ece2c6 100%);
+	border:1px solid #daa520;
+}
+#nomiembro{
+	background-color:#e67b17;
+	color:black;
+	border:1px solid #e67b17;
+}
+
+#miembro{
+	background-color:#daa520;
+	color:black;
+	border:1px solid #f0c818;
+}
+
+#candado{
+	height:16px;
+	width:16px;
+}
+

@@ -1,0 +1,28 @@
+.cuadriculaVM{
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 5px;
+  background-image: url('../media/css/fondoCuadricula.jpg');
+  padding: 2%;
+  height:100%;
+  width:90%;
+}
+
+.cuadriculaVM > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  item-align: center;
+  padding: 1%;
+  margin:1%;
+  font-size: 17px;
+  color:black;
+  border: 3px solid #e0c56e;
+}
+
+a {
+  color: #1182e0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0f75cb;
+}

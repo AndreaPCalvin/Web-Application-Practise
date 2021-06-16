@@ -1,0 +1,214 @@
+.principal{
+	display:grid;
+	grid-template-columns:20% 70%;
+	grid-column-gap: 5%;
+	justify-content:stretch;
+	align-content:stretch;
+	color:white;
+	font-weight:bold;
+}
+
+.nav{}
+.content{
+	text-align:center;
+}
+h1.content{
+	text-align:center;
+	font-size:35px;
+	margin:3%;
+}
+h2.content{
+	text-align:center;
+	font-size:27px;
+	margin:1.5%;
+}
+
+h3.content{
+	text-align:center;
+	font-size:23px;
+	margin:1.5%;
+}
+
+p.content{
+	line-height:1.4; 
+	font-size:18px; 
+	float:none;
+	text-align:justify; 
+	margin:4%;
+}
+ 
+ ul { 
+ list-style-type: circle;
+  list-style-position: inherit;
+} 
+ li {
+  text-align:justify;
+  font-size:18px;
+  margin:2%;
+}
+
+#highlight { background-color:#FFFFFF; }
+
+#evento {
+	border-radius:10px;
+	background:#252525;
+	border: 3px solid #daa520;
+	text-align:center;
+	margin:2%;
+	padding:5%;
+}
+
+.marco {
+	color:black;
+  margin:5%;
+  text-align:center;
+  padding: 1rem;
+  width: 90%;
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+    0 5px 15px 0 rgba(0,0,0,0.08);
+  background-image: url('../media/css/fondoMarco.png');
+  border-radius: 0.5rem;
+  border-left: 0 solid #61f9f9;
+  transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out;
+}
+
+.buttonCE {
+	background:linear-gradient(to bottom, #ece2c6 5%, #daa520 100%);
+	border-radius:25px;
+	border:1px solid #050505;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	height:40px;
+    width:95px;
+	text-decoration:none;
+	margin:1%;
+}
+.buttonCE:hover {
+	background:linear-gradient(to bottom, #daa520 5%, #ece2c6 100%);
+}
+
+.buttonFG{
+	background:#2badf2;
+	border-radius:5px;
+	border:1px solid #337bc4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:1% 3%;
+	margin:1%;
+	text-decoration:none;
+}
+.buttonFG:hover {
+	background:linear-gradient(to bottom, #2387e1 5%, #79bbff 100%);
+}
+
+#misGruposPublicos{
+	background:#daa520;
+	border:1px solid #daa520;
+	color:black;
+}
+#misGruposPublicos:hover {
+	background:linear-gradient(to bottom, #daa520 5%, #b8860b 100%);
+	border:1px solid #b8860b;
+}
+
+#misGruposPrivados{
+	background:#aaa9ad ;
+	border:1px solid #aaa9ad ;
+	color:black;
+}
+#misGruposPrivados:hover {
+	background:linear-gradient(to bottom, #aaa9ad  5%, #85868c 100%);
+	border:1px solid #85868c;
+}
+
+
+.buttonDefault{
+	margin-top:2%;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:1% 3%;
+	text-decoration:none;
+	background:linear-gradient(to bottom, #daa520 5%, #cc9a10 100%);
+	background-color:#daa520;
+	border-radius:5px;
+	border:1px solid #454545;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+}
+.buttonDefault:hover {
+	background:#c1921c;
+}
+
+.buttonBuscar{
+	background:#252525;
+	background-image: url('../media/css/lupa.png');
+	background-repeat: no-repeat;
+	border-radius:5px;
+	border:1px solid #daa520;
+	display:inline-block;
+	cursor:pointer;
+	text-decoration:none;
+	width: 35px;
+	height: 35px;
+}
+
+.buttonGrupo{
+	background:#daa520;
+	border-radius:5px;
+	border:1px solid #daa520;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:1% 3%;
+	margin:1%;
+	text-decoration:none;
+}
+
+.buttonGrupo:disabled{
+	background:#aaaaaa;
+	border:1px solid #aaaaaa;
+}
+
+
+#menuForo {width:100%}
+	
+#menuForo a {
+	color: #FFFFFF;
+	height: 25px;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	}	
+	
+#menuForo a:link, #menuForo a:visited {
+	border:1px solid #c8a679;
+	color: #daa520;
+	display: block;
+	background:  #252525;
+	padding: 8px 0 0 10px;
+	}
+	
+	
+#menuForo a:hover {
+	color: black;
+	background: #daa520;
+	padding: 8px 0 0 10px;
+}
+
+.miImagen{
+	width:600px;
+}	
+	

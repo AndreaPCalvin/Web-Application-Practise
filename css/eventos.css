@@ -1,0 +1,27 @@
+.select-css {
+ font-size: 18px;
+ font-weight: bold;
+ font-family: 'Arial', sans-serif;
+ color: black;
+ width: 40%; 
+ margin: 2%;
+ padding:1%;
+ border: 1px solid #aaa;
+ box-shadow: 0 1px 0 1px rgba(0,0,0,.03);
+ border-radius: .3em;
+ background-color: #fff;
+ background-repeat: no-repeat, repeat;
+ background-position: right .7em top 50%, 0 0;
+ background-size: .65em auto, 100%;
+ text-align:center;
+}
+
+.caja {
+  border: #a67e4c 5px solid;
+  border-radius: 0.5rem;
+  width:88%;
+  height:auto;
+  margin:5%;
+  padding:1%;
+  background-image: url('../media/css/fondoCaja2.jpg');
+}
